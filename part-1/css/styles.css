@@ -21,6 +21,7 @@ body {
   border: 3px solid black;
   background-color: #eee;
   position: relative;
+  height: 10%; /* added to prevent container from collapsing due to position set to relative */
 }
 
 .box {
@@ -31,6 +32,8 @@ body {
 
 .red {
   background-color: pink;
+  top: 50px;
+  right: 100px;
 }
 
 .green {
