@@ -26,6 +26,7 @@ figure {
 .film {
   width: 50%;
   margin: 40px auto;
+  overflow: hidden;
 }
 
 /* basic style for film cards */
@@ -44,4 +45,16 @@ article.film {
 
 figure.film-poster {
     position: relative;
+    float: left;
+    width: 30%;
+}
+
+.film-details {
+  float: left;
+  width: 65%;
+  margin-left: 3%;
+}
+
+h1.film-title {
+    margin: 0;
 }
