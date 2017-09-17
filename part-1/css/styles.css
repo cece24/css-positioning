@@ -20,11 +20,13 @@ body {
   margin: auto;
   border: 3px solid black;
   background-color: #eee;
+  position: relative;
 }
 
 .box {
   width: 200px;
   height: 200px;
+  position: absolute;
 }
 
 .red {
