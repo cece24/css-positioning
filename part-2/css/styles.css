@@ -33,3 +33,15 @@ article.film {
     border: 1px solid #dad1d1;
     padding: 2%;
 }
+
+/* position red watch icon over poster */
+.action-watch-later {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: red;
+}
+
+figure.film-poster {
+    position: relative;
+}
