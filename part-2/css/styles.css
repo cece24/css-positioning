@@ -27,3 +27,9 @@ figure {
   width: 50%;
   margin: 40px auto;
 }
+
+/* basic style for film cards */
+article.film {
+    border: 1px solid #dad1d1;
+    padding: 2%;
+}
