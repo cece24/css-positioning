@@ -27,6 +27,7 @@ figure {
   width: 50%;
   margin: 40px auto;
   overflow: hidden;
+  position: relative; /* set for action-like buttons positioning */
 }
 
 /* basic style for film cards */
@@ -57,4 +58,11 @@ figure.film-poster {
 
 h1.film-title {
     margin: 0;
+}
+
+.action-like {
+    position: absolute;
+    color:  red;
+    bottom: 8px;
+    right: 8px;
 }
