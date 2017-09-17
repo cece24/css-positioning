@@ -39,6 +39,8 @@ body {
 
 .blue {
   background-color: lightblue;
+  top: 50px;
+  left: 200px;
 }
 
 .orange {
